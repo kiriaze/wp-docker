@@ -1,0 +1,32 @@
+version: '3'
+services:
+  wordpress:
+    image: visiblevc/wordpress:latest
+    ports:
+      - 8080:80
+      - 443:443
+    volumes:
+      - ./data:/data # Required if importing an existing database
+      - ./tweaks.ini:/usr/local/etc/php/conf.d/tweaks.ini # Optional tweaks to the php.ini config
+      - ./uploads:/app/wp-content/uploads
+      - ./themes/test:/app/wp-content/themes/test
+    environment:
+      DB_NAME: wordpress
+      DB_PASS: root
+      PLUGINS: >-
+        [Basic-Auth]https://github.com/WP-API/Basic-Auth/archive/master.zip,
+        [advanced-custom-fields-pro]http://connect.advancedcustomfields.com/index.php?p=pro&a=download&k=b3JkZXJfaWQ9MzU0MTJ8dHlwZT1kZXZlbG9wZXJ8ZGF0ZT0yMDE0LTA3LTIxIDIyOjI5OjEy
+       # co-authors-plus,
+       # [local]my-local-plugin
+      THEMES: >-
+        [local]test
+      SEARCH_REPLACE: yoursite.com,localhost:8080
+      WP_DEBUG: 'true'
+  db:
+    image: mariadb:10 # or mysql:5.7
+    volumes:
+      - data:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+volumes:
+  data:
