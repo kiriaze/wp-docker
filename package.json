@@ -1,7 +1,7 @@
 {
   "name": "wp-docker",
-  "version": "0.15.2",
-  "description": "A slightly less shitty wordpress development workflow",
+  "version": "1.0.0",
+  "description": "A docker based wordpress development workflow",
   "main": "index.js",
   "repository": "https://github.com/kiriaze/wp-docker.git",
   "author": "Constantine Kiriaze <ckiriaze@gmail.com>",

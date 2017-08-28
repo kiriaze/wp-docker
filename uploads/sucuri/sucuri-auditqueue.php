@@ -1,0 +1,35 @@
+<?php
+// datastore=auditqueue;
+// created_on=1503687979;
+// updated_on=1503687979;
+exit(0);
+?>
+1503687979_2692:"Warning: 127.0.0.1; Plugin activated: Sucuri Security - Auditing, Malware Scanner and Hardening (v1.8.8; sucuri-scanner\/sucuri.php)"
+1503687979_3189:"Warning: 127.0.0.1; Plugin activated: Sunny (v2.4.1; sunny\/sunny.php)"
+1503687979_3709:"Warning: 127.0.0.1; Plugin activated: Theme My Login (v6.4.9; theme-my-login\/theme-my-login.php)"
+1503687981_287:"Warning: 127.0.0.1; Plugin activated: Wordfence Security (v6.3.17; wordfence\/wordfence.php)"
+1503687981_3424:"Warning: 127.0.0.1; Plugin activated: WP Crontrol (v1.5; wp-crontrol\/wp-crontrol.php)"
+1503687981_4424:"Warning: 127.0.0.1; Plugin activated: WP Super Cache (v1.5.4; wp-super-cache\/wp-cache.php)"
+1503687981_5252:"Warning: 127.0.0.1; Plugin activated: Yoast SEO (v5.3.2; wordpress-seo\/wp-seo.php)"
+1503688030_5723:"Notice: 172.18.0.1; User authentication succeeded: root"
+1503688038_4139:"Notice: root, 172.18.0.1; Page status has been changed; details: ID: 4,Old status: new,New status: publish,Title: Log In"
+1503688038_4413:"Notice: root, 172.18.0.1; Page was created; ID: 4; name: Log In"
+1503688038_4923:"Notice: root, 172.18.0.1; Page status has been changed; details: ID: 5,Old status: new,New status: publish,Title: Log Out"
+1503688038_5201:"Notice: root, 172.18.0.1; Page was created; ID: 5; name: Log Out"
+1503688038_5687:"Notice: root, 172.18.0.1; Page status has been changed; details: ID: 6,Old status: new,New status: publish,Title: Register"
+1503688038_5914:"Notice: root, 172.18.0.1; Page was created; ID: 6; name: Register"
+1503688038_641:"Notice: root, 172.18.0.1; Page status has been changed; details: ID: 7,Old status: new,New status: publish,Title: Lost Password"
+1503688038_6661:"Notice: root, 172.18.0.1; Page was created; ID: 7; name: Lost Password"
+1503688038_7123:"Notice: root, 172.18.0.1; Page status has been changed; details: ID: 8,Old status: new,New status: publish,Title: Reset Password"
+1503688038_7335:"Notice: root, 172.18.0.1; Page was created; ID: 8; name: Reset Password"
+1503688292_8634:"Warning: 127.0.0.1; Plugin activated: Enhanced Media Library (v2.4.5; enhanced-media-library\/enhanced-media-library.php)"
+1503688292_8934:"Warning: 127.0.0.1; Plugin activated: Simple Multi CPTS (v1.0.0; simple-multi-cpts\/simple-multi-cpts.php)"
+1503688411_5161:"Warning: 127.0.0.1; Plugin activated: Front-end Editor (v2.2.1; wp-front-end-editor\/plugin.php)"
+1503688411_5553:"Warning: 127.0.0.1; Plugin activated: Timber (v1.4.1; timber-library\/timber.php)"
+1503696874_5457:"Warning: 127.0.0.1; Plugin activated: Sucuri Security - Auditing, Malware Scanner and Hardening (v1.8.8; sucuri-scanner\/sucuri.php)"
+1503696874_6399:"Warning: 127.0.0.1; Plugin activated: Sunny (v2.4.1; sunny\/sunny.php)"
+1503696874_7573:"Warning: 127.0.0.1; Plugin activated: Theme My Login (v6.4.9; theme-my-login\/theme-my-login.php)"
+1503696874_9192:"Warning: 127.0.0.1; Plugin activated: Timber (v1.4.1; timber-library\/timber.php)"
+1503696875_7022:"Warning: 127.0.0.1; Plugin activated: Wordfence Security (v6.3.17; wordfence\/wordfence.php)"
+1503696875_9029:"Warning: 127.0.0.1; Plugin activated: WP Super Cache (v1.5.4; wp-super-cache\/wp-cache.php)"
+1503696876_0033:"Warning: 127.0.0.1; Plugin activated: Yoast SEO (v5.3.2; wordpress-seo\/wp-seo.php)"

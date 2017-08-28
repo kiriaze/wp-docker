@@ -238,7 +238,10 @@ check_plugins() {
 
   [[ "${#to_install}" -gt 0 ]] && wp plugin install --allow-root "${to_install[@]}" | tail -n 1 |& _colorize
   [[ "${#to_remove}" -gt 0 ]] && _wp plugin delete "${to_remove[@]}"
-  _wp plugin activate --all
+
+  ## Uncomment below if you wish to auto activate all plugins..
+  # _wp plugin activate --all
+
 }
 
 check_themes() {
