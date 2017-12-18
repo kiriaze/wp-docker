@@ -21,3 +21,7 @@ wp-content/*
 # WordPress Starter Dev Files
 Dockerfile-test
 test.sh
+
+uploads
+plugins/*
+#!plugins/custom-local-built
